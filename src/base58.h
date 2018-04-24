@@ -272,7 +272,7 @@ class CBitcoinAddress : public CBase58Data
 public:
     enum
     {
-        PUBKEY_ADDRESS = 20, // Xarr addresses start with L
+        PUBKEY_ADDRESS = 76, // Xarr addresses start with X
         SCRIPT_ADDRESS = 31,
         PUBKEY_ADDRESS_TEST = 43,
         SCRIPT_ADDRESS_TEST = 88,

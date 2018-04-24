@@ -14,6 +14,7 @@
 #include <boost/algorithm/string/replace.hpp>
 #include <boost/filesystem.hpp>
 #include <boost/filesystem/fstream.hpp>
+#include <fstream>
 
 using namespace std;
 using namespace boost;
@@ -31,7 +32,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0x39216ce09da7cb294d97ec2f094075bbca2a1751d67c8e059b8bd4a862f4339d");
+uint256 hashGenesisBlock("0xcdf6f707b91873993f034c023f5b1cdee55eeb44c3dbc0cae34b50fe9af249df");
 static CBigNum bnProofOfWorkLimit = CBigNum().SetCompact(503421396); // Xarr: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -2740,7 +2741,6 @@ bool LoadBlockIndex()
     return true;
 }
 
-
 bool InitBlockIndex() {
     // Check whether we're already initialized
     if (pindexGenesisBlock != NULL)
@@ -2761,13 +2761,13 @@ bool InitBlockIndex() {
         //   vMerkleTree: 97ddfbbae6
 
         // Genesis block
-        const char* pszTimestamp = "Another illustrious Build-a-Coin cryptocurrency!";
+        const char* pszTimestamp = "Europe's New Consumer Privacy Law Gives Edge to Tech Giants";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
-        txNew.vout[0].nValue = 50000000000;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("3df1cedfb25bc82cf48604a2cab9a0ec6952e551fc91034da49df78dd2629849795b6fb47273b44eb5394a7843879e919279d489e6c225e80e8bd09a1a955664f1") << OP_CHECKSIG;
+        txNew.vout[0].nValue = 500 * COIN;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("0450863AD64A87AE8A2FE83C1AF1A8403CB53F53E486D8511DAD8A04887E5B23522CD470243453A299FA9E77237716103ABC11A1DF38855ED6F2EE187E9C582BA6") << OP_CHECKSIG;
         CBlock block;
         block.vtx.push_back(txNew);
         block.hashPrevBlock = 0;
@@ -2785,25 +2785,37 @@ bool InitBlockIndex() {
 
         //// debug print
         uint256 hash = block.GetHash();
+        printf("SHIT\n");
         printf("%s\n", hash.ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0xebb080646518a506810c781ab6d500b81a4b7cd068165a60bd1bb39af6a6fbaf"));
+        ofstream fout("~/Desktop/shit.txt");
+        fout << block.hashMerkleRoot.ToString().c_str() << "\n";
+        fout << hash.ToString() << "\n";
+        fout.flush();
+        fout.close();
+        //assert(block.hashMerkleRoot == uint256("0xebb080646518a506810c781ab6d500b81a4b7cd068165a60bd1bb39af6a6fbaf"));
         block.print();
-        assert(hash == hashGenesisBlock);
+        //assert(hash == hashGenesisBlock);
 
         // Start new block file
         try {
+
             unsigned int nBlockSize = ::GetSerializeSize(block, SER_DISK, CLIENT_VERSION);
             CDiskBlockPos blockPos;
             CValidationState state;
             if (!FindBlockPos(state, blockPos, nBlockSize+8, 0, block.nTime))
                 return error("LoadBlockIndex() : FindBlockPos failed");
+                            printf("ALRIGHTYYYYYYYYY 1\n");
             if (!block.WriteToDisk(blockPos))
                 return error("LoadBlockIndex() : writing genesis block to disk failed");
+                            printf("ALRIGHTYYYYYYYYY 2\n");
             if (!block.AddToBlockIndex(state, blockPos))
                 return error("LoadBlockIndex() : genesis block not accepted");
+                 printf("ALRIGHTYYYYYYYYY FUCK\n");
+
         } catch(std::runtime_error &e) {
+        printf("ALRIGHTYYYYYYYYY 4\n");
             return error("LoadBlockIndex() : failed to initialize block database: %s", e.what());
         }
     }

@@ -1,7 +1,334 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="924f4a1d-3034-43fc-aded-6b2800df774a" name="Default" comment="" />
+    <list default="true" id="924f4a1d-3034-43fc-aded-6b2800df774a" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Makefile" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/aboutdialog.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/addressbookpage.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/addresstablemodel.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/addrman.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/alert.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/askpassphrasedialog.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/bitcoin.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/bitcoinaddressvalidator.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/bitcoinamountfield.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/bitcoingui.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/bitcoinrpc.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/bitcoinstrings.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/bitcoinunits.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/bloom.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/build.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/checkpoints.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/clientmodel.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/crypter.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/csvmodelwriter.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/db.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/editaddressdialog.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/guiutil.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/hash.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/init.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/key.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/keystore.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/leveldb.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/main.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_aboutdialog.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_aboutdialog.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_addressbookpage.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_addressbookpage.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_addresstablemodel.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_addresstablemodel.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_askpassphrasedialog.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_askpassphrasedialog.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_bitcoinaddressvalidator.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_bitcoinaddressvalidator.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_bitcoinamountfield.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_bitcoinamountfield.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_bitcoingui.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_bitcoingui.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_bitcoinunits.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_bitcoinunits.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_clientmodel.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_clientmodel.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_csvmodelwriter.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_csvmodelwriter.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_editaddressdialog.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_editaddressdialog.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_guiutil.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_guiutil.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_macnotificationhandler.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_macnotificationhandler.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_monitoreddatamapper.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_monitoreddatamapper.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_notificator.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_notificator.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_optionsdialog.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_optionsdialog.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_optionsmodel.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_optionsmodel.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_overviewpage.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_overviewpage.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_paymentserver.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_paymentserver.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_qvalidatedlineedit.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_qvalidatedlineedit.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_qvaluecombobox.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_qvaluecombobox.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_rpcconsole.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_rpcconsole.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_sendcoinsdialog.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_sendcoinsdialog.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_sendcoinsentry.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_sendcoinsentry.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_signverifymessagedialog.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_signverifymessagedialog.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_splashscreen.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_splashscreen.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_transactiondesc.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_transactiondesc.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_transactiondescdialog.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_transactiondescdialog.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_transactionfilterproxy.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_transactionfilterproxy.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_transactiontablemodel.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_transactiontablemodel.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_transactionview.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_transactionview.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_walletframe.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_walletframe.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_walletmodel.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_walletmodel.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_walletstack.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_walletstack.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_walletview.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/moc_walletview.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/monitoreddatamapper.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/net.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/netbase.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/notificator.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/noui.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/optionsdialog.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/optionsmodel.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/overviewpage.moc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/overviewpage.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/paymentserver.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/protocol.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/qrc_bitcoin.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/qvalidatedlineedit.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/qvaluecombobox.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/rpcblockchain.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/rpcconsole.moc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/rpcconsole.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/rpcdump.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/rpcmining.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/rpcnet.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/rpcrawtransaction.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/rpcwallet.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/script.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/scrypt.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/sendcoinsdialog.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/sendcoinsentry.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/signverifymessagedialog.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/splashscreen.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/sync.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/transactiondesc.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/transactiondescdialog.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/transactionfilterproxy.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/transactionrecord.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/transactiontablemodel.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/transactionview.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/txdb.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/ui_aboutdialog.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/ui_addressbookpage.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/ui_askpassphrasedialog.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/ui_editaddressdialog.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/ui_optionsdialog.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/ui_overviewpage.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/ui_rpcconsole.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/ui_sendcoinsdialog.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/ui_sendcoinsentry.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/ui_signverifymessagedialog.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/ui_transactiondescdialog.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/util.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/version.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/wallet.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/walletdb.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/walletframe.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/walletmodel.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/walletstack.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/walletview.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/inputs/boost_1_50_0.tar.bz2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/inputs/db-4.8.30.NC.tar.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/inputs/db-4.8.30.NC.tar.gz.1" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/inputs/miniupnpc-1.6.tar.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/inputs/openssl-1.0.1c.tar.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/inputs/qrencode-3.2.0.tar.bz2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/inputs/qt-everywhere-opensource-src-4.8.3.tar.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/qrc_bitcoin.cpp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/build_config.mk" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/db/builder.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/db/c.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/db/db_impl.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/db/db_iter.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/db/dbformat.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/db/filename.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/db/log_reader.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/db/log_writer.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/db/memtable.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/db/repair.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/db/table_cache.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/db/version_edit.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/db/version_set.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/db/write_batch.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/helpers/memenv/memenv.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/libleveldb.a" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/libmemenv.a" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/port/port_posix.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/table/block.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/table/block_builder.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/table/filter_block.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/table/format.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/table/iterator.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/table/merger.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/table/table.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/table/table_builder.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/table/two_level_iterator.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/util/arena.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/util/bloom.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/util/cache.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/util/coding.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/util/comparator.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/util/crc32c.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/util/env.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/util/env_posix.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/util/env_win.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/util/filter_policy.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/util/hash.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/util/histogram.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/util/logging.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/util/options.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/leveldb/util/status.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/addrman.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/addrman.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/alert.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/alert.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/bitcoinrpc.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/bitcoinrpc.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/bloom.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/bloom.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/build.h" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/checkpoints.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/checkpoints.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/crypter.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/crypter.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/db.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/db.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/hash.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/hash.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/init.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/init.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/key.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/key.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/keystore.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/keystore.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/leveldb.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/leveldb.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/main.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/main.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/net.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/net.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/netbase.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/netbase.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/noui.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/noui.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/protocol.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/protocol.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/rpcblockchain.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/rpcblockchain.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/rpcdump.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/rpcdump.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/rpcmining.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/rpcmining.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/rpcnet.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/rpcnet.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/rpcrawtransaction.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/rpcrawtransaction.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/rpcwallet.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/rpcwallet.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/script.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/script.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/scrypt.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/scrypt.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/sync.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/sync.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/txdb.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/txdb.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/util.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/util.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/version.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/version.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/wallet.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/wallet.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/walletdb.P" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/obj/walletdb.o" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_af_ZA.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ar.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_bg.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_bs.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ca.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ca_ES.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_cs.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_cy.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_da.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_de.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_el_GR.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_en.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_eo.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_es.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_es_CL.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_et.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_eu_ES.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_fa.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_fa_IR.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_fi.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_fr.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_fr_CA.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_gu_IN.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_he.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_hi_IN.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_hr.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_hu.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_it.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ja.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_la.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_lt.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_lv_LV.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_nb.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_nl.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_pl.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_pt_BR.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_pt_PT.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ro_RO.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ru.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_sk.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_sr.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_sv.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_th_TH.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_tr.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_uk.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_zh_CN.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_zh_TW.qm" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/res/icons/bitcoin-nt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/res/icons/bitcoin-old.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/res/icons/bitcoin_testnet-nt.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/qt/res/icons/bitcoin_testnet-old.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/xarrd" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/xarr-qt" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/base58.h" afterPath="$PROJECT_DIR$/src/base58.h" />
+      <change beforePath="$PROJECT_DIR$/src/main.cpp" afterPath="$PROJECT_DIR$/src/main.cpp" />
+      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/bitcoin.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/bitcoin.png" />
+      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/bitcoin_testnet.png" afterPath="$PROJECT_DIR$/src/qt/res/icons/bitcoin_testnet.png" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +338,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="COPYING" pinned="false" current-in-tab="true">
+      <file leaf-file-name="COPYING" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/COPYING">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
@@ -21,32 +348,80 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="main.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="34" column="92" lean-forward="false" selection-start-line="34" selection-start-column="92" selection-end-line="34" selection-end-column="92" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="checkpoints.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/checkpoints.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1224">
+              <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base58.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/base58.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="274" column="59" lean-forward="false" selection-start-line="274" selection-start-column="59" selection-end-line="274" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="util.h" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/util.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Makefile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="qrc_bitcoin.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qrc_bitcoin.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1998">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="net.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="317">
+              <caret line="1193" column="19" lean-forward="false" selection-start-line="1193" selection-start-column="19" selection-end-line="1193" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>txNew.vout</find>
-      <find>ParseHex</find>
-      <find>pchMessageStart</find>
-      <find>hashGenesisBlock =</find>
-      <find>hashMerkleRoot</find>
-      <find>nNonce</find>
-      <find>genesi</find>
-      <find>1317972665</find>
-      <find>1317798646</find>
-      <find>NY times</find>
-      <find>NY</find>
-      <find>mapCheckpoints</find>
-      <find>MAX_MONEY</find>
-      <find>COINBASE_MATURITY</find>
-      <find>nTargetSpacing</find>
-      <find>2.5 *</find>
-      <find>genesis</find>
-      <find>2.5 * 60</find>
-      <find>nSubsidy</find>
-      <find>hashGenesisBlock</find>
-      <find>block</find>
-      <find>Bitcoin</find>
       <find>bitcoin</find>
       <find>CBlock</find>
       <find>Parse</find>
@@ -55,6 +430,28 @@
       <find>litecoin</find>
       <find>LTC</find>
       <find>MAX_MONEY =</find>
+      <find>yet</find>
+      <find>strMainNetDNSSeed</find>
+      <find>pszTimestamp</find>
+      <find>COIN =</find>
+      <find>COIN</find>
+      <find>Europe's New Consumer Privacy Law Gives Edge to Tech Giants</find>
+      <find>nvalue</find>
+      <find>5000000</find>
+      <find>fin</find>
+      <find>50000000000</find>
+      <find>PUBKEY_ADDRESS</find>
+      <find>hashGenesisBlock</find>
+      <find>39216ce09da7cb294d97ec2f094075bbca2a1751d67c8e059b8bd4a862f4339d</find>
+      <find>MapCheckpoints</find>
+      <find>MapCheckpoints mapCheckpoints</find>
+      <find>0x841a2965955dd288cfa707a755d05a54e45f8bd476835ec9af4402a2b59a296</find>
+      <find>assert</find>
+      <find>genesis</find>
+      <find>ny times</find>
+      <find>transaction index disabled</find>
+      <find>0450863ad64a87ae8a2fe83c1af1a8</find>
+      <find>SHIT</find>
     </findStrings>
     <replaceStrings>
       <replace>11333</replace>
@@ -62,14 +459,16 @@
       <replace>11332</replace>
       <replace>10332</replace>
       <replace>Xa738CUOYV6f78CTd7tfwq7dtfqw7TEhca</replace>
-      <replace>10.0 * 30</replace>
       <replace>Xarr</replace>
       <replace>xarr</replace>
       <replace>XRR</replace>
+      <replace>10.0 * 30</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src/univalue</dir>
       <dir>$PROJECT_DIR$/src</dir>
+      <dir>$PROJECT_DIR$/srcMapCheckpoints mapCheckpoints</dir>
+      <dir>$PROJECT_DIR$/../xarr0x841a2965955dd288cfa707a755d05a54e45f8bd476835ec9af4402a2b59a2967</dir>
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
@@ -98,6 +497,8 @@
         <option value="$PROJECT_DIR$/src/validation.cpp" />
         <option value="$PROJECT_DIR$/src/chainparams.cpp" />
         <option value="$PROJECT_DIR$/src/amount.h" />
+        <option value="$PROJECT_DIR$/src/base58.h" />
+        <option value="$PROJECT_DIR$/src/main.cpp" />
       </list>
     </option>
   </component>
@@ -140,6 +541,11 @@
               <item name="xarr" type="b2602c69:ProjectViewProjectNode" />
               <item name="xarr" type="462c0819:PsiDirectoryNode" />
               <item name="doc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xarr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xarr" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -325,14 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/base58.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-111">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contrib/testgen/gen_base58_test_vectors.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -361,14 +759,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="68" lean-forward="false" selection-start-line="1" selection-start-column="68" selection-end-line="1" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/checkpoints.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="24" lean-forward="false" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
           <folding />
         </state>
       </provider>
@@ -421,10 +811,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/net.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="1193" column="19" lean-forward="false" selection-start-line="1193" selection-start-column="19" selection-end-line="1193" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xarr-qt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="44" lean-forward="false" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/COPYING">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qrc_bitcoin.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1998">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/base58.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="274" column="59" lean-forward="false" selection-start-line="274" selection-start-column="59" selection-end-line="274" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/checkpoints.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="34" column="92" lean-forward="false" selection-start-line="34" selection-start-column="92" selection-end-line="34" selection-end-column="92" />
           <folding />
         </state>
       </provider>
